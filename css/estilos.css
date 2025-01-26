@@ -1,0 +1,208 @@
+
+@view-transition{
+    navigation: auto;
+}
+::view-transition-old(root),
+::view-transition-new(root){
+    animation-duration: 0.5s;
+}
+
+body{
+    background-color: aquamarine;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecera{
+    text-align: center;
+    background-color:#848fe3 ;
+}
+.cabecera span{
+    font-size: 3em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.cabecera img{
+    float:left;
+    width: 10%;
+}
+.menu{
+    font-size: 1.5em;
+    transition-property: all;
+    transition-duration: 0.5s;
+    padding: 2%;
+    margin: 0%;
+    justify-content: space-between;
+}
+.menu ul{
+  
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-size: 1.3em;
+    display: block;
+    text-transform: uppercase;
+    padding: 15 px 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blueviolet;
+    text-decoration: none;
+    padding-left: 15px;
+    border-radius: 45px;
+}
+.menu ul li a:hover{
+    background-color: black;
+}
+
+.articulo{
+    color: brown;
+    font-size: 1.5em;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.section{
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    color: crimson;
+}
+
+
+.fundador{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: justify;
+    margin: 0px 500px 0px 360px;
+}
+.PN{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.section img{
+ margin: -120px -5px 1px 1220px;
+}
+
+.contenedor{
+    background-color: orange ;
+    float: right;
+    height: 100%;
+}
+
+
+
+
+
+.primerParrafo{
+    text-align:justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.segundoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.tercerParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.cuartoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.quintoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sextoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.septimoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.octavoParrafo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*CONTACTOS*/
+.TC{
+
+   margin-left: 660px;
+   color: blue; 
+   
+}
+
+.TC2{
+    margin-left: 550px;
+    color:black;
+    background-color: white;
+}
+.TC2 td{
+    text-align: center;
+}
+.TC2 td:hover{
+    background-color: red;
+}
+
+.h2V{
+    margin-left: 700px;
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.mirar{
+    margin-left: 630px;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+.mirar2{
+    margin-left: 700px;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+.video{
+    margin-left: 520px;
+}
+.Pc{
+    margin-left: 600px;
+}
